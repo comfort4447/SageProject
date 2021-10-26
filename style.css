@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+/************ index page *************/
+
+
+
+/************ index page END*************/
+
+
+
+
+
+
+
+
+
+/************ login page *************/
+
+
+
+/************ login page END*************/
+
+
+/************ signUp page *************/
+
+
+
+/************ signUP page END*************/
+
+
+
+
+
+
+
+/************ dashboard page *************/
+
+
+
+
+/************ dashboard page END*************/
+
+
+
+
+
+
+
+
+
+
+/************ Tablet Size Styles *************/
+@media only screen and (min-width: 760px) {
+
+
+
+}
+
+/************ Tablet Size Styles END*************/
+
+
+/************ Large Tablet Size Styles *************/
+@media only screen and (min-width: 1020px) {
+
+
+
+
+}
+/************ Large Tablet Size Styles END*************/
+
+
+
+
+/************ Desktop Size Styles *************/
+
+@media only screen and (min-width: 1200px) {
+
+
+
+}
+
+/************ Desktop Size Styles END*************/
