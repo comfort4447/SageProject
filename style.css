@@ -25,7 +25,8 @@ header {
     width: 100px;
 }
 .logo img {
-    margin-top: 15px;
+    margin-left: -20px;
+    margin-top: 12px;
     height: auto;
 	width: 70%;
 }
@@ -33,7 +34,8 @@ header {
 /************ Slider Styles **************/
 
 #slider {
-	margin-bottom: 50px;
+    margin-top: -25px;
+	margin-bottom: 10px;
 }
 .slide1 { 
     height: 70vh;
@@ -43,19 +45,19 @@ header {
 }
 .slide2 { 
     height: 70vh;
-    background-image: url("images/e-commerce.png");
+    background-image: url("images/e-commercebackground.png");
     background-position: center;
     background-size: cover;
 }
 .slide3 { 
     height: 70vh;
-    background-image: url("images/logistics.png");
+    background-image: url("images/background (2).jpg");
     background-position: center;
     background-size: cover;
 }
 .slide4 { 
     height: 70vh;
-    background-image: url("images/finance1.png");
+    background-image: url("images/financebackground.png");
     background-position: center;
     background-size: cover;
 }
@@ -200,6 +202,10 @@ p{
 }
 .card_items .card_inner a{
     outline: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
 }
 .cards_wrap .card_inner:hover{
     background-color: #0b3d0e;
@@ -220,6 +226,7 @@ p{
     margin-top: 5px;
 }
 #footer_section{
+    margin-top: 100px;
     background: #0F8514;
     background-position: center;
     background-size: cover;
@@ -230,37 +237,6 @@ p{
 .footer_container h1{
     text-align: center;
     margin-top: 5px;
-}
-.footer_container h2{
-    text-align: center;
-    font-size: 10px;
-}
-input[type=email]{
-    width: 674px;
-    padding: 10px 15px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-.container3{
-    margin-top: 5px;
-    margin-right: 200px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.btn{
-    padding: 10px 15px;
-    background-color: transparent;
-    outline: none;
-    border: 2px solid #fff;
-    font-weight: bold;
-    cursor: pointer;
-    color: #fff;
-    margin-left: 10px;
 }
 .container4{
     margin-top: 5px;
@@ -281,11 +257,10 @@ input[type=email]{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 15px;
     padding: 15px;
 }
 .container5 img{
-    margin-left: 10px;
+    margin-right: 25px;
     cursor: pointer;
 
 }
@@ -668,22 +643,22 @@ span a{
 /* slider styles */
 #slider .cta { width: 50%; right:0; }
 .slide1 { 
-    background-image: url("images/background_image.jpg");
+    background-image: url("images/background_image (2).jpg");
     background-position: center;
     background-size: cover;
 }
 .slide2 { 
-    background-image: url("images/background_image.jpg");
+    background-image: url("images/financebackground.png");
     background-position: center;
     background-size: cover;
 }
 .slide3 { 
-    background-image: url("images/background_image.jpg");
+    background-image: url("images/e-commercebackground.png");
     background-position: center;
     background-size: cover;
 }
 .slide4 { 
-    background-image: url("images/background_image.jpg");
+    background-image: url("images/background_image (2).jpg");
     background-position: center;
     background-size: cover;
 }
