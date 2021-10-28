@@ -1,12 +1,297 @@
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/************ index page*************/
+#page{
+	max-width: 1500px;
+	margin: auto;
+}
+header {
+	height: 50px;
+	padding: 10px 0;
+	/*background-color: rgba(255,224,153,0.75);*/
+	background-color: #0F8514;
+	top:0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
 }
 
+.logo { 
+	margin-left: 25px;
+    margin-top: 5px;
+}
+.logo img {
+	width: 100px;
+}
 
-/************ index page *************/
+/************ Slider Styles **************/
 
+#slider {
+	margin-bottom: 50px;
+}
+.slide1 { 
+    height: 70vh;
+    background-image: url("images/background_image.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.slide2 { 
+    height: 70vh;
+    background-image: url("images/e-commerce.png");
+    background-position: center;
+    background-size: cover;
+}
+.slide3 { 
+    height: 70vh;
+    background-image: url("images/finance.png");
+    background-position: center;
+    background-size: cover;
+}
+.slide4 { 
+    height: 70vh;
+    background-image: url("images/background_image.jpg");
+    background-position: center;
+    background-size: cover;
+}
 
+#slider .flexslider ul li > div {
+	height: 0;
+	padding-top: 46.7%;
+	position: relative;
+}
+
+#slider > .flexslider > ul > li > div { 
+	background-size: cover; 
+}
+.flexslider {
+	border-radius: 0;
+}
+.flex-control-paging li a.flex-active {
+	background:#FF5964;
+}
+
+.flex-direction-nav .flex-next{
+	display:none;
+}
+
+.flex-direction-nav .flex-prev{
+	display:none;
+}
+.flex-control-paging li a {
+  width: 10px;
+  height: 11px;
+  border-radius: 1px;
+}
+
+#slider .cta {
+	position: absolute;
+	/*adjust the bottom setting*/
+	bottom: 0;
+	right: 0;
+    left: 0;
+    top: 0;
+	background: rgba(6,25,35,0.5);
+	padding: 10px;
+	color:#fff;
+	width: 100%;
+}
+
+#slider .cta h2 {
+	font-size: 10px;
+	color: #fff;
+    margin-left: 25px;
+    margin-top:5px
+}
+#slider .cta p {
+	font-size: 15px;
+	color: #fff;
+    margin-left: 25px;
+    margin-top:5px
+}
+
+h2{
+    margin-top: 10px;
+    font-size: 10px;
+    color: white;
+    margin-bottom: 15px;
+}
+h1{
+    margin-top: 5px;
+    font-size: 15px;
+    color: white;
+}
+p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    margin-bottom: 15px;
+}
+#slider .cta .button{
+    padding: 15px 30px;
+    background-color: #0F8514;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.chatbot{
+    float: right;
+    margin-right: 50px;
+    right: 0px;
+    border-radius: 50%;
+    padding: 1px 2px;
+    background: white;
+    z-index: 2;
+    margin-top: 250px;
+    cursor: pointer;
+}
+
+#header2{
+    height: 40vh;
+    background: white;
+    background-position: center;
+    background-size: cover;
+}
+.container2{
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+.container2 h1{
+    margin-top: 50px;
+    margin-left: 10px;
+    color: black;
+    text-align: center;
+}
+.container2 h2{
+    margin-top: 30px;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+.cards_wrap{
+    align-items: center;
+    justify-self: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.cards_wrap .card_items{
+    width: 25%;
+}
+.cards_wrap .card_inner{
+    background: white;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    box-shadow: 5px 5px rgb(207, 204, 204);
+}
+.card_items .card_inner a{
+    outline: none;
+}
+.cards_wrap .card_inner:hover{
+    background-color: #0b3d0e;
+    color: #fff;
+}
+.card_inner img{
+    margin-top: 10px;
+    left: auto;
+    right: auto;
+    width: 70%;
+    margin-bottom: 5px;
+}
+
+.cards_wrap .card_inner h2{
+    color: #0F8514;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 5px;
+}
+#footer_section{
+    background: #0F8514;
+    background-position: center;
+    background-size: cover;
+}
+.footer_container{
+    margin-top: 100px;
+}
+.footer_container h1{
+    text-align: center;
+    margin-top: 5px;
+}
+.footer_container h2{
+    text-align: center;
+    font-size: 10px;
+}
+input[type=email]{
+    width: 674px;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.container3{
+    margin-top: 5px;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 10px 15px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #fff;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 10px;
+}
+.container4{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.container4 h2{
+    text-align: center;
+    font-size: 10px;
+}
+.container5 h2{
+    text-align: center;
+    font-size: 8px;
+}
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    padding: 15px;
+}
+.container5 img{
+    margin-left: 10px;
+    cursor: pointer;
+
+}
 
 /************ index page END*************/
 
@@ -56,7 +341,29 @@
 /************ Tablet Size Styles *************/
 @media only screen and (min-width: 760px) {
 
-
+/* slider styles */
+#slider .cta { width: 50%; right:0; }
+.slide1 { 
+    background-image: url("images/background_image.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.slide2 { 
+    background-image: url("images/background_image.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.slide3 { 
+    background-image: url("images/background_image.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.slide4 { 
+    background-image: url("images/background_image.jpg");
+    background-position: center;
+    background-size: cover;
+}
+/* Add Additional slide backgrounds */
 
 }
 
