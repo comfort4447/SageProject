@@ -9,7 +9,7 @@
 	margin: auto;
 }
 header {
-	height: 50px;
+	height: 30px;
 	padding: 10px 0;
 	/*background-color: rgba(255,224,153,0.75);*/
 	background-color: #0F8514;
@@ -21,7 +21,7 @@ header {
 
 .logo { 
 	margin-left: 25px;
-    margin-top: 5px;
+    margin-top: 50px;
 }
 .logo img {
 	width: 100px;
