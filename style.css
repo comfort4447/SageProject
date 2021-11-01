@@ -25,15 +25,27 @@ header {
   width: 100px;
 }
 .logo img {
+<<<<<<< HEAD
   margin-top: 15px;
   height: auto;
   width: 70%;
+=======
+    margin-left: -20px;
+    margin-top: 12px;
+    height: auto;
+	width: 70%;
+>>>>>>> c4438d7dc0c41fdfc7cbb7958bf089d2741b18cc
 }
 
 /************ Slider Styles **************/
 
 #slider {
+<<<<<<< HEAD
   margin-bottom: 50px;
+=======
+    margin-top: -25px;
+	margin-bottom: 10px;
+>>>>>>> c4438d7dc0c41fdfc7cbb7958bf089d2741b18cc
 }
 .slide1 {
   height: 70vh;
@@ -41,6 +53,7 @@ header {
   background-position: center;
   background-size: cover;
 }
+<<<<<<< HEAD
 .slide2 {
   height: 70vh;
   background-image: url("images/e-commerce.png");
@@ -58,6 +71,25 @@ header {
   background-image: url("images/finance1.png");
   background-position: center;
   background-size: cover;
+=======
+.slide2 { 
+    height: 70vh;
+    background-image: url("images/e-commercebackground.png");
+    background-position: center;
+    background-size: cover;
+}
+.slide3 { 
+    height: 70vh;
+    background-image: url("images/background (2).jpg");
+    background-position: center;
+    background-size: cover;
+}
+.slide4 { 
+    height: 70vh;
+    background-image: url("images/financebackground.png");
+    background-position: center;
+    background-size: cover;
+>>>>>>> c4438d7dc0c41fdfc7cbb7958bf089d2741b18cc
 }
 
 #slider .flexslider ul li > div {
@@ -198,8 +230,17 @@ p {
   height: 120px;
   box-shadow: 5px 5px rgb(207, 204, 204);
 }
+<<<<<<< HEAD
 .card_items .card_inner a {
   outline: none;
+=======
+.card_items .card_inner a{
+    outline: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+>>>>>>> c4438d7dc0c41fdfc7cbb7958bf089d2741b18cc
 }
 .cards_wrap .card_inner:hover {
   background-color: #0b3d0e;
@@ -219,6 +260,7 @@ p {
   text-align: center;
   margin-top: 5px;
 }
+<<<<<<< HEAD
 #footer_section {
   background: #0f8514;
   background-position: center;
@@ -230,11 +272,37 @@ p {
 .footer_container h1 {
   text-align: center;
   margin-top: 5px;
+=======
+#footer_section{
+    margin-top: 100px;
+    background: #0F8514;
+    background-position: center;
+    background-size: cover;
+}
+.footer_container{
+    margin-top: 100px;
+}
+.footer_container h1{
+    text-align: center;
+    margin-top: 5px;
+}
+.container4{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.container4 h2{
+    text-align: center;
+    font-size: 10px;
+>>>>>>> c4438d7dc0c41fdfc7cbb7958bf089d2741b18cc
 }
 .footer_container h2 {
   text-align: center;
   font-size: 10px;
 }
+<<<<<<< HEAD
 input[type="email"] {
   width: 674px;
   padding: 10px 15px;
@@ -287,6 +355,18 @@ input[type="email"] {
 .container5 img {
   margin-left: 10px;
   cursor: pointer;
+=======
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.container5 img{
+    margin-right: 25px;
+    cursor: pointer;
+
+>>>>>>> c4438d7dc0c41fdfc7cbb7958bf089d2741b18cc
 }
 
 /************ index page END*************/
@@ -755,6 +835,7 @@ nav .top i {
 
 /************ Tablet Size Styles *************/
 @media only screen and (min-width: 760px) {
+<<<<<<< HEAD
   /* slider styles */
   #slider .cta {
     width: 50%;
